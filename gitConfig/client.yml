@@ -1,1 +1,2 @@
-sleep.ribbon.ReadTimeout: 1
+# Change this property with the config server has no effect after first init
+sleep.ribbon.ReadTimeout: 10000

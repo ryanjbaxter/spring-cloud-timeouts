@@ -1,10 +1,5 @@
-spring.application.name: client
-
 sleep:
   ribbon:
     listOfServers: localhost:8080
 
 hystrix.command.default.execution.timeout.enabled: false
-
-# Change this property with the config server has no effect
-sleep.ribbon.ReadTimeout: 10000
