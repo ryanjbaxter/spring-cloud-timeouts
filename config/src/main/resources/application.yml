@@ -6,5 +6,6 @@ spring:
     config:
       server:
         git:
+#          Change this URI according to your fork
           uri: https://github.com/garciafl/spring-cloud-timeouts.git
           searchPaths: gitConfig

@@ -2,4 +2,8 @@ sleep:
   ribbon:
     listOfServers: localhost:8080
 
+zuul:
+  routes:
+    sleep: /test/**
+
 hystrix.command.default.execution.timeout.enabled: false
