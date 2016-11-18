@@ -1,0 +1,10 @@
+server.port: 8888
+
+spring:
+  application.name: search-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/garciafl/spring-cloud-timeouts.git
+          searchPaths: gitConfig
